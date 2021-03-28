@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    background: crimson;
+    text-align: center;
+    border: 2px solid black;
+    position: sticky;
+    top: 0;
+    height: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px 1px green;
+}
+
+div {
+    margin-left: 60px;
+}
+
+section {
+    height: 300px;
+    width: 80%;
+    margin: 100px auto;
+    overflow-y: scroll;
+}
