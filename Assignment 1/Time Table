@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Time Table</title>
+</head>
+<body>
+<!---------------heading--------------------------->
+<h1>Time Table</h1>
+<!---------------Row 1--------------------------->
+<table border="3px" align="left" cellspacing="20px" cellpadding="10px">
+    <tr align="center">
+        <td width="50px">Days/Period</td>
+        <td width="50px">1</td>
+        <td width="50px">2</td>
+        <td width="50px">3</td>
+        <td width="50px">4</td>
+        <td width="50px">R</td>
+        <td width="50px">5</td>
+        <td width="50px">6</td>
+        <td width="50px">7</td>
+        <td width="50px">8</td>
+    </tr>
+<!---------------Row 2--------------------------->
+    <tr align="center">
+        <td width="50px">Mon</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px">Sst</td>
+        <td width="50px">Maths</td>
+        <td width="50px" rowspan="7">RECESS</td>
+        <td width="50px">Computer</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 3--------------------------->
+    <tr align="center">
+        <td width="50px">Tue</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px" colspan="2">Sst</td>
+        <td width="50px">Computer</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 4--------------------------->
+    <tr align="center">
+        <td width="50px">Wed</td>
+        <td width="50px">Games</td>
+        <td width="50px" rowspan="3">Science</td>
+        <td width="50px">Sst</td>
+        <td width="50px">Maths</td>
+        <td width="50px">Computer</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 5--------------------------->
+    <tr align="center">
+        <td width="50px">Thu</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 6--------------------------->
+    <tr align="center">
+        <td width="50px">Fri</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 7--------------------------->
+    <tr align="center">
+        <td width="50px">Sat</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px">Sst</td>
+        <td width="50px">Maths</td>
+        <td width="50px">Computer</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------Row 8--------------------------->
+    <tr align="center">
+        <td width="50px">Sun</td>
+        <td width="50px">Games</td>
+        <td width="50px">Science</td>
+        <td width="50px">Sst</td>
+        <td width="50px">Maths</td>
+        <td width="50px">Computer</td>
+        <td width="50px">Hindi</td>
+        <td width="50px">English</td>
+        <td width="50px">Sanskrit</td>
+    </tr>
+<!---------------END--------------------------->
+</table>
+</body>
+</html>
