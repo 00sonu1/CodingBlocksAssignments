@@ -1,0 +1,52 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 80%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./joshua-lawrence-OwHKFmjCkec-unsplash-min.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    transition: all 0.5s;
+}
+
+button {
+    padding: 2rem 3rem;
+    background-color: black;
+    border: none;
+    color: #fefefe;
+    font-size: 2.5rem;
+    transition: all 0.5s;
+
+    z-index: 100;
+
+    overflow: hidden;
+}
+
+button:hover {
+    border: 10px solid;
+    border-image-slice: 3;
+    border-image-source: linear-gradient(to right, darkslateblue, orangered);
+    cursor: pointer;
+    transform: translateY(2rem);
+    box-shadow: 0 5px 10px 3px lightblue;
+}
+
+.blur {
+    backdrop-filter: blur(0.2rem);
+}
+
+.invisible {
+    display: none;
+}
