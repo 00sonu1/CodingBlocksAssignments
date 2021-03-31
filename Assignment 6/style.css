@@ -1,0 +1,90 @@
+body {
+    margin: 10px auto;
+    min-width: 250px;
+    max-width: 50%;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 20px;
+    list-style-type: none;
+    background: coral;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+    background: lightpink;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+.close {
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    padding: 7px;
+    background-color: red;
+    color: white;
+}
+
+.header {
+    background-color: blueviolet;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 20%;
+    background: purple;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: darkred;
+}
+
+.btn {
+    position: absolute;
+    right: 35px;
+    top: 6px;
+    padding: 10px 12px;
+    background: blue;
+    color: white;
+    border: none;
+}
