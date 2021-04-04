@@ -1,0 +1,60 @@
+html {
+    background: url('assets/shot.jpeg') ;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.myInput{
+    padding-left: 12px;
+    width: 20%;
+    height: 30px;
+    background: transparent;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 4px 6px black;
+}
+.myInput:focus{
+    outline: none;
+}
+.centered{
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 2px black;
+}
+.header{
+    margin: 0;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.header2{
+    margin: 0;
+    top: 0;
+}
+.temp{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 100px !important;
+    color: white;
+    text-shadow: 5px 10px black;
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 2px black;
+}
+.visible{
+    margin: 0;
+}
