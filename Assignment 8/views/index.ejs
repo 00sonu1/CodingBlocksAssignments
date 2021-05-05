@@ -1,0 +1,32 @@
+<% include ./partials/header %>
+  <div>
+    <h1 class="text-center mt-3">All Blog Posts</h1>
+  </div>
+  <div class="container mt-4 mb-4">
+    <div class="row justify-content-center">
+      <% blogs.forEach(function(blog) { %>
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <div class="card-header">
+              <a class="header" href="/blogs/<%= blog._id %>" style="color: black; font-size: large;">
+                <%= blog.title %>
+              </a>
+              <span style="float: right;">
+                <%= blog.created.toDateString() %>
+              </span>
+            </div>
+            <div class="card-body">
+              <img src="<%= blog.image %>" width="100%" height="400px">
+              <p class="card-text mt-2">
+                <%- blog.body.substring(0, 100) %>...
+              </p>
+              <a href="/blogs/<%= blog._id %>" class="btn btn-primary">View</a>
+            </div>
+          </div>
+        </div>
+        <% }) %>
+    </div>
+
+
+
+    <% include ./partials/footer %>
