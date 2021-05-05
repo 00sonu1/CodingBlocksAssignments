@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+  </div>
+  <div class="h3 text-center mt-4">
+    <p>Edit  <%= blog.title %></p>
+  </div>
+  <div class="container">
+    <div class="col-6 offset-md-3">
+      <form class="validatedform" action="/blogs/<%= blog._id %>?_method=PUT" method="POST" novalidate>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" name="blog[title]" placeholder="Enter title"
+            value="<%= blog.title %>" required>
+        </div>
+        <div class="form-group">
+          <label for="image">Image</label>
+          <input type="text" class="form-control" id="image" name="blog[image]" placeholder="Enter Image Path" value="<%= blog.image %>" required/>
+        </div>
+        <div class="form-group">
+          <label for="content">Blog Content</label>
+          <textarea class="form-control" id="content" name="blog[body]" cols="30" rows="7" required><%= blog.body %></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+  <% include ./partials/footer %>
